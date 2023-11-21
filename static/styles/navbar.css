@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  background-color: cadetblue;
+}
+
+.nav-list {
+  display: flex;
+}
+.nav-list a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.nav-list a:hover {
+  background-color: cadetblue;
+}
+
+.nav-btn {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .nav-btn {
+    font-size: 1em;
+    padding-inline: 10px;
+    padding-bottom: 2px;
+    border: none;
+    background-color: cadetblue;
+    color: aliceblue;
+    display: block;
+    cursor: pointer;
+  }
+  .nav-list {
+    display: none;
+  }
+
+  .drop:hover .nav-list {
+    display: block;
+    position: absolute;
+    right: 1px;
+    background-color: rgba(59, 133, 136, 0.575);
+  }
+  .navbar {
+    justify-content: right;
+  }
+}

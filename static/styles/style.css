@@ -1,0 +1,36 @@
+.left-bar > ul {
+  list-style: none;
+  border-bottom-style: solid;
+  border-width: 0.5px;
+  margin: 10px;
+  padding: 0;
+  padding-bottom: 10px;
+}
+a {
+  color: rgb(146, 72, 72);
+}
+
+span {
+  font-style: italic;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+  color: rgb(224, 18, 18);
+}
+h5 {
+  text-align: center;
+}
+.armament > h4 {
+  color: cornflowerblue;
+}
